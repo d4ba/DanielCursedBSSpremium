@@ -1,5 +1,5 @@
 user = game:GetService("Players").LocalPlayer.Name
-whitelisted = loadstring(game:HttpGet("https://raw.githubusercontent.com/danielgamer9799/DanielCursedBSSpremium/main/whitelistedusers.lua?token=GHSAT0AAAAAACDFZVRBF2RVTTULV6RNFK42ZD7SA4Q"))()
+whitelisted = loadstring(game:HttpGet("https://raw.githubusercontent.com/danielgamer9799/DanielCursedBSSpremium/main/whitelistedusers.lua"))()
 if table.find(whitelisted,user) then
     local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
     local Window = Rayfield:CreateWindow({
